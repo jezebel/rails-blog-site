@@ -1,0 +1,1011 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+/**
+ * Reset some basic elements
+ */
+/* line 4, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_base.scss */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Basic styling
+ */
+/* line 16, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_base.scss */
+body {
+  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #d7cfbe;
+  background-color: #353535;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+/* line 33, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_base.scss */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure {
+  margin-bottom: 15px;
+}
+
+/**
+ * Images
+ */
+/* line 45, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_base.scss */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/**
+ * Figures
+ */
+/* line 55, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_base.scss */
+figure > img {
+  display: block;
+}
+
+/* line 59, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_base.scss */
+figcaption {
+  font-size: 14px;
+}
+
+/**
+ * Lists
+ */
+/* line 68, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_base.scss */
+ul, ol {
+  margin-left: 30px;
+}
+
+/* line 73, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_base.scss */
+li > ul,
+li > ol {
+  margin-bottom: 0;
+}
+
+/**
+ * Headings
+ */
+/* line 84, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+/**
+ * Links
+ */
+/* line 93, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_base.scss */
+a {
+  text-decoration: none;
+  color: #2e9cbf;
+}
+/* line 97, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_base.scss */
+a:visited, a:hover {
+  text-decoration: none;
+}
+
+/**
+ * Blockquotes
+ */
+/* line 107, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_base.scss */
+blockquote {
+  color: #828282;
+  border-left: 4px solid #e8e8e8;
+  padding-left: 15px;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-style: italic;
+}
+/* line 115, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_base.scss */
+blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+/**
+ * Code formatting
+ */
+/* line 125, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_base.scss */
+pre,
+code {
+  font-size: 15px;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+}
+
+/* line 133, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_base.scss */
+code {
+  padding: 1px 5px;
+}
+
+/* line 137, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_base.scss */
+pre {
+  padding: 8px 12px;
+  overflow-x: auto;
+}
+/* line 141, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_base.scss */
+pre > code {
+  border: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/**
+ * Wrapper
+ */
+/* line 153, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_base.scss */
+.wrapper {
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: calc(800px - (30px * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+@media screen and (max-width: 800px) {
+  /* line 153, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_base.scss */
+  .wrapper {
+    max-width: -webkit-calc(800px - (30px));
+    max-width: calc(800px - (30px));
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+/**
+ * Clearfix
+ */
+/* line 175, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_base.scss */
+.wrapper:after, .site-footer .footer-col-wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/**
+ * Icons
+ */
+/* line 186, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_base.scss */
+.icon > svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 190, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_base.scss */
+.icon > svg path {
+  fill: #828282;
+}
+
+/**
+ * Site header
+ */
+/* line 4, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.site-header {
+  border-top: 5px solid #424242;
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 56px;
+  position: relative;
+  background: url(/assets/nav-bg-578a10f05b34ae6bb8b4566b6d5e487ee573f5bc64f095b3053f5718dc227fdc.gif) #353535;
+  border-bottom: 4px solid #434343;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+/* line 21, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.site-title {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left;
+  color: #6f3abd;
+  text-shadow: 1px -1px 0 #462477, 1px 1px 0 #462477, -1px 1px 0 #462477, -1px -1px 0 #462477, 0 -1px 0 #462477, 0 1px 0 #462477, 1px 0 0 #462477, -1px 0 0 #462477, 0 3px rgba(0, 0, 0, 0.4);
+}
+
+/* line 44, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.site-nav {
+  float: right;
+  line-height: 52px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+/* line 49, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.site-nav .menu-icon {
+  display: none;
+}
+/* line 53, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.site-nav .page-link {
+  color: #d7cfbe;
+  line-height: 50px;
+  font-weight: normal;
+  display: inline;
+}
+/* line 61, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.site-nav .page-link:not(:last-child) {
+  margin-right: 5px;
+}
+/* line 65, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.site-nav .page-link a {
+  width: 30px;
+  line-height: 14px;
+  color: white;
+  border: 1px solid #462477;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6f3abd), color-stop(100%, #512a8a));
+  background: -webkit-linear-gradient(#6f3abd, #512a8a);
+  background: -moz-linear-gradient(#6f3abd, #512a8a);
+  background: -ms-linear-gradient(#6f3abd, #512a8a);
+  background: -o-linear-gradient(#6f3abd, #512a8a);
+  background: linear-gradient(#6f3abd, #512a8a);
+  -webkit-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 3px 7px rgba(0, 0, 0, 0.7);
+  -o-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 3px 7px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 3px 7px rgba(0, 0, 0, 0.7);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 3px 7px rgba(0, 0, 0, 0.7);
+  background-color: #6f3abd;
+  padding: 10px 12px;
+  margin-top: 6px;
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+}
+/* line 98, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.site-nav .page-link a:hover {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6133a6), color-stop(100%, #41226f));
+  background: -webkit-linear-gradient(#6133a6, #41226f);
+  background: -moz-linear-gradient(#6133a6, #41226f);
+  background: -ms-linear-gradient(#6133a6, #41226f);
+  background: -o-linear-gradient(#6133a6, #41226f);
+  background: linear-gradient(#6133a6, #41226f);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2), 0 1px 0 transparent;
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2), 0 1px 0 transparent;
+  -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2), 0 1px 0 transparent;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2), 0 1px 0 transparent;
+  background-color: #512a8a;
+  border: 1px solid #41226f;
+  text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+  /* line 44, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+  .site-nav {
+    position: absolute;
+    top: 9px;
+    right: 15px;
+    background-color: #353535;
+    border: 1px solid #424242;
+    border-radius: 5px;
+    text-align: right;
+  }
+  /* line 127, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+  .site-nav .menu-icon {
+    display: block;
+    float: right;
+    width: 36px;
+    height: 26px;
+    line-height: 0;
+    padding-top: 10px;
+    text-align: center;
+  }
+  /* line 136, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+  .site-nav .menu-icon > svg path {
+    fill: #6f3abd;
+  }
+  /* line 141, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+  .site-nav .trigger {
+    clear: both;
+    display: none;
+    margin: 0;
+    padding: 5px 5px;
+  }
+  /* line 148, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+  .site-nav:hover .trigger {
+    display: block;
+  }
+  /* line 152, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+  .site-nav .page-link {
+    display: block;
+    padding: 0;
+    margin: 0;
+    line-height: 24px;
+  }
+  /* line 160, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+  .site-nav .page-link:not(:last-child) {
+    margin: 0;
+  }
+  /* line 164, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+  .site-nav .page-link a {
+    margin: 2px 4px;
+  }
+}
+
+/**
+ * Site footer
+ */
+/* line 177, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.site-footer {
+  background: url(/assets/nav-bg-578a10f05b34ae6bb8b4566b6d5e487ee573f5bc64f095b3053f5718dc227fdc.gif) #353535;
+  border-top: 1px solid #424242;
+  padding: 30px 0;
+}
+/* line 182, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.site-footer .footer-heading {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+/* line 187, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.site-footer .contact-list,
+.site-footer .social-media-list {
+  text-align: center;
+  list-style: none;
+  margin-left: 0;
+}
+/* line 194, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.site-footer .footer-col-wrapper {
+  font-size: 15px;
+  color: #828282;
+  margin-left: -15px;
+}
+/* line 201, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.site-footer .footer-col {
+  float: left;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+/* line 207, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.site-footer .footer-col-1 {
+  width: -webkit-calc(35% - (30px / 2));
+  width: calc(35% - (30px / 2));
+}
+/* line 212, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.site-footer .footer-col-2 {
+  width: -webkit-calc(20% - (30px / 2));
+  width: calc(20% - (30px / 2));
+}
+/* line 217, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.site-footer .footer-col-3 {
+  width: -webkit-calc(45% - (30px / 2));
+  width: calc(45% - (30px / 2));
+}
+@media screen and (max-width: 800px) {
+  /* line 223, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+  .site-footer .footer-col-1,
+  .site-footer .footer-col-2 {
+    width: -webkit-calc(50% - (30px / 2));
+    width: calc(50% - (30px / 2));
+  }
+  /* line 229, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+  .site-footer .footer-col-3 {
+    width: -webkit-calc(100% - (30px / 2));
+    width: calc(100% - (30px / 2));
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 236, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+  .site-footer .footer-col {
+    float: none;
+    width: -webkit-calc(100% - (30px / 2));
+    width: calc(100% - (30px / 2));
+  }
+}
+
+/**
+ * Page content
+ */
+/* line 248, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.page-content {
+  padding: 30px 0;
+  background-attachment: fixed !important;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2a2a29), color-stop(100%, #1c1c1c));
+  background: -webkit-linear-gradient(#2a2a29, #1c1c1c);
+  background: -moz-linear-gradient(#2a2a29, #1c1c1c);
+  background: -o-linear-gradient(#2a2a29, #1c1c1c);
+  background: -ms-linear-gradient(#2a2a29, #1c1c1c);
+  background: linear-gradient(#2a2a29, #1c1c1c);
+}
+/* line 259, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.page-content .page-heading {
+  font-size: 20px;
+}
+/* line 263, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.page-content .post-list {
+  margin-left: 0;
+  list-style: none;
+}
+/* line 267, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.page-content .post-list > li {
+  margin-bottom: 30px;
+}
+/* line 272, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.page-content .post-meta {
+  font-size: 14px;
+  color: #828282;
+}
+/* line 277, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.page-content .post-link {
+  display: block;
+  font-size: 24px;
+}
+
+/**
+ * Posts
+ */
+/* line 286, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.post-header {
+  margin-bottom: 30px;
+}
+
+/* line 290, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.post-title {
+  font-size: 42px;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+@media screen and (max-width: 800px) {
+  /* line 290, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+  .post-title {
+    font-size: 36px;
+  }
+}
+
+/* line 301, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.post-image figcaption {
+  text-align: right;
+  font-style: italic;
+}
+
+/* line 307, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.post-content {
+  margin-bottom: 30px;
+}
+/* line 310, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.post-content h2 {
+  font-size: 32px;
+}
+/* line 311, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.post-content h3 {
+  font-size: 26px;
+}
+/* line 312, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.post-content h4 {
+  font-size: 20px;
+}
+/* line 314, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+.post-content h2, .post-content h3, .post-content h4 {
+  color: #b6b6b6;
+}
+@media screen and (max-width: 800px) {
+  /* line 319, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+  .post-content h2 {
+    font-size: 28px;
+  }
+  /* line 320, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+  .post-content h3 {
+    font-size: 22px;
+  }
+  /* line 321, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_layout.scss */
+  .post-content h4 {
+    font-size: 18px;
+  }
+}
+
+/**
+ * Syntax highlighting styles
+ */
+/* line 24, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.highlight {
+  margin-bottom: 1.5em;
+  color: #A9B7C6;
+  background-color: #2B2B2B;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 29, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.highlight pre {
+  position: relative;
+  margin: 0;
+  padding: 1em;
+  overflow-x: auto;
+  word-wrap: normal;
+  border: none;
+  white-space: pre;
+  background-color: #333;
+  color: #ddd !important;
+}
+/* line 39, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.highlight pre code {
+  white-space: pre;
+  color: #ddd;
+}
+/* line 44, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.highlight pre::-webkit-scrollbar {
+  height: 10px;
+  background-color: #34362e;
+  border-radius: 0 0 4px 4px;
+}
+/* line 49, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.highlight pre::-webkit-scrollbar-thumb {
+  background-color: #555;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 53, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.highlight ::selection {
+  background-color: #214283;
+  color: #A9B7C6;
+}
+
+/* line 58, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.highlight > pre {
+  -webkit-box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* line 63, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.highlight,
+p > nobr > code,
+li > code,
+h5 > code,
+p > pre,
+p > code,
+.note > code {
+  color: tomato;
+  background-color: #333;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* line numbers */
+/* line 82, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.lineno {
+  border-right: dashed 1px #A9B7C6 !important;
+  color: #A9B7C6;
+  padding-right: 5px;
+  padding-left: 0 !important;
+}
+
+/* line 84, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.hll {
+  background-color: #49483e;
+}
+
+/* line 85, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.c {
+  color: #75715e;
+}
+
+/* Comment */
+/* line 86, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.err {
+  color: #960050;
+  background-color: #1e0010;
+}
+
+/* Error */
+/* line 87, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.k {
+  color: #CB772F;
+}
+
+/* Keyword */
+/* line 88, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.l {
+  color: #6897BB;
+}
+
+/* Literal */
+/* line 89, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.n {
+  color: #A9B7C6;
+}
+
+/* Name */
+/* line 90, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.o {
+  color: #A9B7C6;
+}
+
+/* Operator */
+/* line 91, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.p {
+  color: #A9B7C6;
+}
+
+/* Punctuation */
+/* line 92, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.cm {
+  color: #75715e;
+}
+
+/* Comment.Multiline */
+/* line 93, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.cp {
+  color: #75715e;
+}
+
+/* Comment.Preproc */
+/* line 94, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.c1 {
+  color: #75715e;
+}
+
+/* Comment.Single */
+/* line 95, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.cs {
+  color: #75715e;
+}
+
+/* Comment.Special */
+/* line 96, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.ge {
+  font-style: italic;
+}
+
+/* Generic.Emph */
+/* line 97, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.gs {
+  font-weight: bold;
+}
+
+/* Generic.Strong */
+/* line 98, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.kc {
+  color: #CB772F;
+}
+
+/* Keyword.Constant */
+/* line 99, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.kd {
+  color: #CB772F;
+}
+
+/* Keyword.Declaration */
+/* line 100, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.kn {
+  color: #A9B7C6;
+}
+
+/* Keyword.Namespace */
+/* line 101, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.kp {
+  color: #CB772F;
+}
+
+/* Keyword.Pseudo */
+/* line 102, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.kr {
+  color: #CB772F;
+}
+
+/* Keyword.Reserved */
+/* line 103, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.kt {
+  color: #CB772F;
+}
+
+/* Keyword.Type */
+/* line 104, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.ld {
+  color: #A5C25C;
+}
+
+/* Literal.Date */
+/* line 105, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.m {
+  color: #6897BB;
+}
+
+/* Literal.Number */
+/* line 106, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.s {
+  color: #A5C25C;
+}
+
+/* Literal.String */
+/* line 107, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.na {
+  color: #9876AA;
+}
+
+/* Name.Attribute */
+/* line 108, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.nb {
+  color: #A9B7C6;
+}
+
+/* Name.Builtin */
+/* line 109, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.nc {
+  color: #88be05;
+}
+
+/* Name.Class */
+/* line 110, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.no {
+  color: #CB772F;
+}
+
+/* Name.Constant */
+/* line 111, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.nd {
+  color: #f1c829;
+}
+
+/* Name.Decorator */
+/* line 112, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.ni {
+  color: #A9B7C6;
+}
+
+/* Name.Entity */
+/* line 113, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.ne {
+  color: #88be05;
+}
+
+/* Name.Exception */
+/* line 114, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.nf {
+  color: #88be05;
+}
+
+/* Name.Function */
+/* line 115, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.nl {
+  color: #A9B7C6;
+}
+
+/* Name.Label */
+/* line 116, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.nn {
+  color: #A9B7C6;
+}
+
+/* Name.Namespace */
+/* line 117, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.nx {
+  color: #88be05;
+}
+
+/* Name.Other */
+/* line 118, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.py {
+  color: #A9B7C6;
+}
+
+/* Name.Property */
+/* line 119, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.nt {
+  color: #f1c829;
+}
+
+/* Name.Tag */
+/* line 120, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.nv {
+  color: #A9B7C6;
+}
+
+/* Name.Variable */
+/* line 121, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.ow {
+  color: #A9B7C6;
+}
+
+/* Operator.Word */
+/* line 122, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.w {
+  color: #A9B7C6;
+}
+
+/* Text.Whitespace */
+/* line 123, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.mf {
+  color: #6897BB;
+}
+
+/* Literal.Number.Float */
+/* line 124, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.mh {
+  color: #6897BB;
+}
+
+/* Literal.Number.Hex */
+/* line 125, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.mi {
+  color: #6897BB;
+}
+
+/* Literal.Number.Integer */
+/* line 126, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.mo {
+  color: #6897BB;
+}
+
+/* Literal.Number.Oct */
+/* line 127, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.sb {
+  color: #A5C25C;
+}
+
+/* Literal.String.Backtick */
+/* line 128, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.sc {
+  color: #A5C25C;
+}
+
+/* Literal.String.Char */
+/* line 129, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.sd {
+  color: #A5C25C;
+}
+
+/* Literal.String.Doc */
+/* line 130, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.s2 {
+  color: #A5C25C;
+}
+
+/* Literal.String.Double */
+/* line 131, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.se {
+  color: #6897BB;
+}
+
+/* Literal.String.Escape */
+/* line 132, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.sh {
+  color: #A5C25C;
+}
+
+/* Literal.String.Heredoc */
+/* line 133, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.si {
+  color: #A5C25C;
+}
+
+/* Literal.String.Interpol */
+/* line 134, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.sx {
+  color: #A5C25C;
+}
+
+/* Literal.String.Other */
+/* line 135, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.sr {
+  color: #A5C25C;
+}
+
+/* Literal.String.Regex */
+/* line 136, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.s1 {
+  color: #A5C25C;
+}
+
+/* Literal.String.Single */
+/* line 137, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.ss {
+  color: #A5C25C;
+}
+
+/* Literal.String.Symbol */
+/* line 138, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.bp {
+  color: #A9B7C6;
+}
+
+/* Name.Builtin.Pseudo */
+/* line 139, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.vc {
+  color: #A9B7C6;
+}
+
+/* Name.Variable.Class */
+/* line 140, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.vg {
+  color: #A9B7C6;
+}
+
+/* Name.Variable.Global */
+/* line 141, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.vi {
+  color: #A9B7C6;
+}
+
+/* Name.Variable.Instance */
+/* line 142, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.il {
+  color: #6897BB;
+}
+
+/* Literal.Number.Integer.Long */
+/* Generic Heading & Diff Header */
+/* line 145, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.gu {
+  color: #75715e;
+}
+
+/* Generic.Subheading & Diff Unified/Comment? */
+/* line 146, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.gd {
+  color: #A9B7C6;
+}
+
+/* Generic.Deleted & Diff Deleted */
+/* line 147, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.gi {
+  color: #88be05;
+}
+
+/* Generic.Inserted & Diff Inserted */
+/* line 148, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana/_syntax-highlighting.scss */
+.l-Scalar-Plain {
+  color: #88be05;
+}
+
+/* line 63, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana.scss */
+.post, .home {
+  padding: 2.5%;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  border-radius: 10px;
+  background-color: rgba(96, 96, 96, 0.7);
+}
+
+/* line 74, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana.scss */
+.post-header .post-image .image-wrapper {
+  text-align: center;
+}
+/* line 76, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana.scss */
+.post-header .post-image .image-wrapper img {
+  width: 200px;
+}
+/* line 80, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana.scss */
+.post-header .post-image .image-text {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* line 89, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana.scss */
+.post-content a {
+  color: #b58af7;
+  text-decoration: none;
+}
+/* line 93, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana.scss */
+.post-content a:hover {
+  color: #ceb4f7;
+}
+/* line 96, /Users/jezebel/src/anakinakova/ana.dj.rails/app/assets/stylesheets/ana.scss */
+.post-content a:visited {
+  color: #8163b1;
+}
