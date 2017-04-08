@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/anakinakova
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ana.dj
+    * I am anakinakova (https://keybase.io/anakinakova) on keybase.
+      * I have a public key with fingerprint 6E0A 3034 41EE A614 2B55  3E6A 2C0D 2C2C 35DE F404
+
+      To do so, I am signing this object:
+
+      {
+              "body": {
+                          "key": {
+                                          "eldest_kid": "01013816a5af51580a0d629f6f03627f8929925e89cc1ef8baef3d33eb01520e29a00a",
+                                                      "fingerprint": "6e0a303441eea6142b553e6a2c0d2c2c35def404",
+                                                                  "host": "keybase.io",
+                                                                              "key_id": "2c0d2c2c35def404",
+                                                                                          "kid": "01013816a5af51580a0d629f6f03627f8929925e89cc1ef8baef3d33eb01520e29a00a",
+                                                                                                      "uid": "927cd9d479783ef0fa18ef25ad79d119",
+                                                                                                                  "username": "anakinakova"
+                                                                                                                          },
+                                                                                                                                  "service": {
+                                                                                                                                                  "hostname": "ana.dj",
+                                                                                                                                                              "protocol": "https:"
+                                                                                                                                                                      },
+                                                                                                                                                                              "type": "web_service_binding",
+                                                                                                                                                                                      "version": 1
+                                                                                                                                                                                          },
+                                                                                                                                                                                              "ctime": 1491620087,
+                                                                                                                                                                                                  "expire_in": 157680000,
+                                                                                                                                                                                                      "prev": "8fb4257339271e7220bf1e7094d7170de2001edd1c0358f92b3aa957a4a6471f",
+                                                                                                                                                                                                          "seqno": 17,
+                                                                                                                                                                                                              "tag": "signature"
+      }
+
+      which yields the signature:
+
+      -----BEGIN PGP MESSAGE-----
+      Version: Keybase OpenPGP v2.0.68
+      Comment: https://keybase.io/crypto
+
+      yMIjAnicrVJdSBVBFL43U8sSDIsKI2P7UchkZvb/0p9FD2FhBkmkdpndmbVN3b0/
+      6zUTlbRMBEEqzUq8IRkVUlk9hphFFAphVlQWlfVgQg+VUCn9zErRS48NDIc5833f
+      +c7h3EmM8SR4V756Wdk60ZvuHbjVUubZPbbjSyWn2aSC81VyxXQ60BJCw46/2CSc
+      jwMQQF6BEhaxIUJRARgQCamGZABeQrKhqEhVkUgVVdchNRQNU4MnPE81AEUEKFIx
+      AJjL4AzTKqKhQMi0HCYrUYB5wAsCpBRLUECaKPJUwkgHBOlI50VCDQEIjLjPDrsM
+      Zk7DYZpp2izHHv5pe//A/2ffZdNyKpJ1ohJBVmWFpwYwMFSogURMZJVAqLrAMA1Z
+      uJQyNLZwscmuHcFcVQbHPiKmTt3Zus38BWWS/YwYCNmOrdslLLfPcQJhn8txKgIu
+      qJxq/t90v2ZahA2RMSI0FDZti/NBhtQd09WDggolBIAiZ3D0QMAMUb/pIkRZUgA7
+      bh0aYZKKoQlIlHme9QSpjBDQDBaBKhAZyoBQJgIpIVAHvKgYKtJ4jFVRxgKWBBka
+      nNtQ0LKZNivl4CKmGTaLLOyUhShX1d9XMNPjTfDExc5wt8uTMDvpz86l1MT/SKsd
+      ze3vslas/dI4XGEG47+vvhiov79ie8q8r3Lc1jA6tjDvSdeb9R/jlmSPZQ+jjQ3L
+      uqs2ZzXtySmsP1e4IIr7tqROLj88FVjvNAvtD+syU4Sm9yMt3w5N3h08+nZwfEgq
+      HVucjFKXDhxs/xmQxoc6mkviojU9Waf111N3u3fOmSAPYkmO92w04+anpLkvIld6
+      P2Z+2DVrU/HwVSOxYDT/WS9/ra7tXe7X3OhY+YVLvZ8H1rS11b5+9PxMdXtNdNW9
+      RbkjM9JOzQlW+5puH69uaEc3Ouc3xsf09Uzmvx0NfoZ7z6973MonnxiRrneY20Yv
+      d6YfuF3w8tngqyMngZW34ekvUVpFcA==
+      =Tx36
+      -----END PGP MESSAGE-----
+
+      And finally, I am proving ownership of this host by posting or
+      appending to this document.
+
+      View my publicly-auditable identity here: https://keybase.io/anakinakova
+
+      ==================================================================
+
